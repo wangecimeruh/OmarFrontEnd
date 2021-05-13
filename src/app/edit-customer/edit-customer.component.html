@@ -1,0 +1,22 @@
+<div class="col-md-12 col-md-offset-6">
+    <h2 class="text-center">Edit Customer</h2>
+  <form class="col-md-12 col-md-offset-6">
+          <label><b>Customer Name</b>
+            <input class="form-control form-control-lg" type="text" [(ngModel)]="customer.customerName" [ngModelOptions]="{standalone: true}">
+          </label>
+          <br>
+          <label><b>Phone Number:</b>
+            <input class="form-control form-control-lg" type="text" [(ngModel)]="customer.phoneNumber" [ngModelOptions]="{standalone: true}">
+          </label>
+        
+          <br>
+    <button class="btn btn-secondary btn-sm" type="submit" (click)="onSubmit()">Submit</button>
+    
+
+  </form>
+<br>
+<button class="btn btn-primary btn-sm float-left" routerLink="/customers">
+    <span class="badge badge-dark "></span>
+    go back
+  </button>
+  </div>

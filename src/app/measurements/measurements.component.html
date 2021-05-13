@@ -1,0 +1,63 @@
+<div class="container-fluid">
+  <!-- (ngSubmit)='onSubmit()' [formGroup]="addMeasurementForm" -->
+  <form >
+    <br>
+    <div class="form-row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Measurement">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Symbol">
+      </div>
+    </div>
+    <br>
+    <div class="col">
+      <button type="submit" class="btn btn-primary mr-2">Add Measurement</button>
+    </div>
+  </form>
+<br><br>
+
+  <!-- DataTales Example -->
+  <div class="card shadow mb-4">
+      <div class="card-header py-3">
+          <h6 class="m-0 font-weight-bold text-primary">Measurements List</h6>
+      </div>
+      <div class="card-body">
+          <div class="table-responsive">
+              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                      <tr>
+                        <th>Measurement ID</th>
+                          <th>Measurement Name</th>
+                          <th>Symbol</th>
+
+                      </tr>
+                  </thead>
+                  <tfoot>
+                      <tr>
+                        <th>Measurement ID</th>
+                        <th>Measurement Name</th>
+                          <th>Symbol</th>
+                      </tr>
+                  </tfoot>
+                  <tbody>
+                      <tr>
+                          <td>1</td>
+                          <td>Shoulder</td>
+                          <td>SH</td>
+
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Full Length</td>
+                          <td>FL</td>
+
+                      </tr>
+
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  </div>
+
+</div>

@@ -1,0 +1,22 @@
+/*Apply CSS reset*/
+*{
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+ /*Declare layout*/
+ .container{
+  display: flex;
+ }
+
+ aside {
+  width:150px;
+  height: 100vh;
+  background:green;
+ }
+
+ .view {
+  flex-grow: 1;
+  height: 100vh;
+  background: yellow
+ }
